@@ -1,4 +1,3 @@
-import scalaj.http._
 import org.kohsuke.args4j.{CmdLineException, CmdLineParser}
 import scala.collection.JavaConverters._
 
@@ -16,5 +15,6 @@ object ScurlApplication extends App {
       System.exit(1)
   }
 
-  println(s"Request Method = ${ScurlCLI.requestMethod}")
+  val url = ScurlCLI.list.get(0)
+  new GetRequest(url).execute
 }
