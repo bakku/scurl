@@ -15,6 +15,5 @@ object ScurlApplication extends App {
       System.exit(1)
   }
 
-  val url = ScurlCLI.list.get(0)
-  new GetRequest(url).execute
+  RequestInitializer.issue_request
 }

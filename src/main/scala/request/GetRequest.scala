@@ -1,3 +1,5 @@
+package request
+
 import scalaj.http._
 
 class GetRequest(url: String) extends Request(url) {

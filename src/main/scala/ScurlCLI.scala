@@ -4,7 +4,7 @@ import scala.collection.JavaConverters._
 object ScurlCLI {
 
   @Option(name = "--method", required = false, usage = "HTTP Method")
-  var requestMethod: String = null
+  var requestMethod: String = "GET"
 
   @Argument
   var list = new java.util.LinkedList[String]
