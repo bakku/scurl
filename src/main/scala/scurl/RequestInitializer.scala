@@ -1,3 +1,5 @@
+package scurl
+
 import request._
 
 object RequestInitializer {
