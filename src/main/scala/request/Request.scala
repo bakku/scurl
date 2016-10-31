@@ -30,10 +30,6 @@ abstract class Request(url: String) {
         print(s"${headerKey}: ") 
         println(headerValue.mkString(", ")) 
       }}
-//          print(s"${headerValue}: ")
-//          println(s"${headerValue.mkString(", ")}")
-//        }
-//      })
 
       print("\n")
     }
