@@ -34,4 +34,10 @@ abstract class Request(url: String) {
       print("\n")
     }
   }
+
+  def printStatusCode(response: HttpResponse[String]) = {
+    println("Status code:")
+    println(s"${response.code}\n")
+  }
+
 }
