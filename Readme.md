@@ -1,6 +1,6 @@
 # Scurl - A small curl clone written in Scala
 
-For educational purposes I wrote scurl, a small curl clone written in Scala
+For educational purposes I wrote scurl, a small curl clone written in Scala. Currently scurl only support GET requests
 
 ## Installation
 
